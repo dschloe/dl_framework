@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../blog/content/Settings/ci_cd_pipeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/content/Settings/ci_cd_pipeline.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog/themes/mainroad" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/themes/mainroad" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pEaUNgahWW7VsHXau3IATXIGQ8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

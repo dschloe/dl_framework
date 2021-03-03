@@ -1,6 +1,6 @@
 import os
-
-from setuptools import setup
+import io
+from setuptools import find_packages, setup
 
 
 # Utility Function to read the README file
@@ -8,22 +8,26 @@ from setuptools import setup
 # README file and 2) it's easier to type in the README file than to put a raw
 # string in below
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+# Read in the README for the long description on PyPI
+def long_description():
+    with io.open('README.rst', 'r', encoding='utf-8') as f:
+        readme = f.read()
+    return readme
 
 setup(
-    name='dschloe_dl_framework',
+    name='dl_framework',
     version="0.0.1",
     author="DSChloe",
     author_email="jhjung@dschloe.com",
     description="Deep Neural Networks built from the book `Deep Learning from Scratch`",
-    license="APACHE",
+    license='MIT',
+    packages=find_packages(),
     keywords="Deep Learning",
     url="https://github.com/dschloe/dl_framework",
-    packages=["dschloe_dl_framework"],
     classifiers=[
-       "Development Status :: 1 - Alpha",
-        "Topic :: Utilities",
-        "License :: OSI Approved :: BSD License",
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
     ],
+    zip_safe=False
 )
