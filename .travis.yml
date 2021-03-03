@@ -17,7 +17,7 @@ after_success:
 
 deploy:
   provider: pypi
-  user: __token__
+  user: "__token__"
   password: $DL_FRAMEWORK_PYPI_TOKEN
   distributions: "sdist bdist_wheel"
   skip_existing: true
