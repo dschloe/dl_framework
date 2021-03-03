@@ -17,9 +17,9 @@ after_success:
 
 deploy:
   provider: pypi
-  user: "__token__"
+  username: "__token__"
   password: $DL_FRAMEWORK_PYPI_TOKEN
-  distributions: "sdist bdist_wheel"
+  distributions: "sdist bdist_wheel" # Your distributions here
   skip_existing: true
   on:
     branch: staging

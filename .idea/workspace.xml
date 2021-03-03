@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="22587e66-0913-41c7-810d-20d6af6cf234" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../DeepTabular/.idea/DeepTabular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog/themes/mainroad" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/themes/mainroad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
