@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22587e66-0913-41c7-810d-20d6af6cf234" name="Default Changelist" comment="" />
+    <list default="true" id="22587e66-0913-41c7-810d-20d6af6cf234" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../blog/content/Settings/ci_cd_pipeline.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/static/img/settings/ci_cd_pipeline/ci_cd_08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/themes/mainroad" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/themes/mainroad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dl_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dl_framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pEaUNgahWW7VsHXau3IATXIGQ8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
