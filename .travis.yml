@@ -4,15 +4,16 @@ python:
   - 3.8
 install:
   - pip install -r requirements.txt
+  - pip install coverage
   - pip install codecov
   - pip install chainer
   - pip install Pillow
   - pip install pytest-cov
 script:
-  - pytest --cov-report=xml --cov=dl_framework tests/
+  - coverage run -m unittest tests/
 
 after_success:
-  - codecov
+  - bash <(curl -s https://codecov.io/bash)
 
 deploy:
   provider: pypi
