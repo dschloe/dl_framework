@@ -14,7 +14,7 @@ def long_description():
     return readme
 
 setup(
-    name='dl_framework',
+    name='dschloe_dl_framework',
     version="0.0.1",
     author="DSChloe",
     author_email="jhjung@dschloe.com",
