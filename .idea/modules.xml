@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DeepTabular/.idea/DeepTabular.iml" filepath="$PROJECT_DIR$/../DeepTabular/.idea/DeepTabular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../blog/.idea/blog.iml" filepath="$PROJECT_DIR$/../blog/.idea/blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dl_framework.iml" filepath="$PROJECT_DIR$/.idea/dl_framework.iml" />
+    </modules>
+  </component>
+</project>
