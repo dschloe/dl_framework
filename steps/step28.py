@@ -34,7 +34,7 @@ for i in range(iters):
     x1.data -= lr * x1.grad
 
 lr=0.001 #학습률
-iters=1000 #epoch
+iters=50000 #epoch
 result1 = []
 result2 = []
 for i in range(iters):
