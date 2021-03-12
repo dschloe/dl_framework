@@ -1,7 +1,7 @@
 import weakref
 import numpy as np
 import contextlib
-
+import dezero
 
 # =============================================================================
 # Config
@@ -44,6 +44,21 @@ class Variable:
     @property
     def shape(self):
         return self.data.shape
+
+    def sum(self, axis=None, keepdims=False):
+        return dezero.functions.sum(self, axis, keepdims)
+
+
+    def reshape(self, *shape):
+        if len(shape) == 1 and isinstance(shape[0], (tuple, list)):
+            shape = shape[0]
+        return dezero.functions.reshape(self, shape)
+    def transpose(self):
+        return dezero.functions.transpose(self)
+    
+    @property
+    def T(self):
+        return dezero.functions.transpose(self)
 
     @property
     def ndim(self):
@@ -258,6 +273,8 @@ class Pow(Function):
 
 def pow(x, c):
     return Pow(c)(x)
+
+
 
 
 def setup_variable():
